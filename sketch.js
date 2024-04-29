@@ -7,5 +7,5 @@ function setup() {
 
 function draw() {
   background(220);
-  image(capture,mouseX, mouseY) //在(mouseX, mouseY)顯示圖片
+  image(capture,width/2-320,height/2-240) //在(mouseX, mouseY)顯示圖片
 }
